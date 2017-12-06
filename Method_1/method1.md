@@ -1,8 +1,8 @@
 # Method 1
 
-The user creates the file [`Q4spheren.jl`](Q4spheren.jl) with the  function `Q4spheren`. The user then establishes the public interface in the module `add2FinEtools` in the file `add2FinEtools.jl`.
+The user creates the file [`Q4spheren.jl`](Q4spheren.jl) with the  function `Q4spheren`. The user then establishes the public interface in the module `add2FinEtools` in the file [`add2FinEtools.jl`](add2FinEtools.jl).
 
-The  example file `examplemesh.jl` draws in the FinEtools package with its entire  public interface (as defined by the developer), plus the public interface of the added function `Q4spheren` (as defined by the user):
+The  example file [`examplemesh.jl`](examplemesh.jl) draws in the FinEtools package with its entire  public interface (as defined by the developer), plus the public interface of the added function `Q4spheren` (as defined by the user):
 
 ```
 using FinEtools
@@ -22,7 +22,7 @@ julia> include("add2FinEtools.jl")
 julia> include("examplemesh.jl")
 ```
 
-The file `add2FinEtools.jl` reads quite simply
+The file [`add2FinEtools.jl`](add2FinEtools.jl) reads quite simply
 
 ```
 module add2FinEtools
