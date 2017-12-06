@@ -10,8 +10,8 @@ We offer  two methods. The use case is the following: the user wrote a function 
 
 The user will take advantage of the various facilities of the mesh-generation, mesh-modification, and mesh-export functionality of the package. The code  and brief discussions  in markdown are  in the two corresponding subfolders:
 
-- Method 1: The user does not change the definition  of the  public interface  to the functionality of the FinEtools package.
+- [Method 1](Method_1/method1.md): The user does not change the definition  of the  public interface  to the functionality of the FinEtools package.
 
-- Method 2: The user changes the definition  of the  public interface  to the functionality of the FinEtools package in an arbitrary way, potentially changing every aspect of the exported interface.
+- [Method 2](Method_2/method2.md): The user changes the definition  of the  public interface  to the functionality of the FinEtools package in an arbitrary way, potentially changing every aspect of the exported interface.
 
 

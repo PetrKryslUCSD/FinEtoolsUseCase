@@ -1,8 +1,8 @@
 # Method 2
 
-The user creates the file `Q4spheren.jl` with the  function `Q4spheren`.
+The user creates the file [`Q4spheren.jl`](Q4spheren.jl) with the  function `Q4spheren`.
 
-The user then establishes the public interface in the module `myFinEtools` in the file `myFinEtools.jl`. As an example, the complete interface of the FinEtools package is reduced to just the modules that are needed to run the example.
+The user then establishes the public interface in the module `myFinEtools` in the file [`myFinEtools.jl`](myFinEtools.jl). As an example, the complete interface of the FinEtools package is reduced to just the modules that are needed to run the example.
 
 The user runs the example as
 
@@ -11,7 +11,7 @@ julia> include("myFinEtools.jl")
 julia> include("examplemesh.jl")
 ```
 
-The file `myFinEtools.jl` is now longish because it incorporates part of the public interface of the FinEtools package.
+The file [`myFinEtools.jl`](myFinEtools.jl) is now longish because it incorporates part of the public interface of the FinEtools package (but still only  one quarter of the length of the entire export part of `FinEtools.jl`).
 
 - First the file `FinEtools.jl` file is located and copied to the user's folder under the name `myFinEtools.jl`.
 - The line 
