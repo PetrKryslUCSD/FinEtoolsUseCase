@@ -34,3 +34,6 @@ end
 ```
 
 to establish the public interface (function `Q4spheren`). In the file `Q4spheren.jl` the implicit resolution of the symbols from the FinEtools package as `using FinEtools` is used.
+
+It is also possible not the change the  public interface  (as exported in the `FinEtools.jl` file) at all but to ignore it, and only use `import`, or targeted `using` to bring into scope only those functions that are  necessary, or to qualify function names with the corresponding module names.
+ 
