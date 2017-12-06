@@ -21,7 +21,7 @@ The file [`myFinEtools.jl`](myFinEtools.jl) is now longish because it incorporat
     ```
 
     is deleted. 
-- Then the functionality of the FinEtools package is brought in with some selected `export`s: In this instance (as an example) the user keeps all the general facilities of FinEtools in the public exported interface. However, the user deletes all the mesh exporting functionality except for `vtkexportmesh`. Also deleted are the geometry data, integration rule, and base FEMM exports. Furthermore all the field-related  functionality  is not exported,  and exports of mesh import, of all the mesh generation functions  for shapes other  than quadrilateral are deleted from the public interface. All the physics-based functions for acoustics, heat diffusion, and linear deformation are also deleted.
+- Then the functionality of the FinEtools package is brought in with some selected `export`s: In this instance (as an example) the user keeps all the general facilities of FinEtools in the public exported interface. However, the user deletes all the mesh exporting functionality except for `vtkexportmesh`. Also deleted are the geometry data, integration rule, and base FEMM exports. Furthermore none of  the field-related  functionality  is exported,  and exports of mesh import and of all the mesh generation functions  for shapes other  than quadrilateral are deleted from the public interface. All the physics-based functions for acoustics, heat diffusion, and linear deformation are also deleted.
 - The user finally  attaches an export of the added  functionality of the sphere-generation function:
 
     ```
