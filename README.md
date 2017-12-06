@@ -4,11 +4,11 @@ Here we show how to use the package FinEtools in user's own projects. The packag
 
 At issue  are the workflows that enable tight (or loose) control of the name conflicts that can occur when user's code is used together with somebody else's. 
 
-We offer  two methods. The use case is the following: the user wrote a function  to generate the surface  mesh of 1/8  of a spherical surface. (This function is not  part of FinEALE.) 
+We offer  two methods. The use case is the following: the user wrote a function  to generate the surface  mesh of 1/8  of a spherical surface. (This function is not  part of FinEtools.)
 
 <img src="sphere.png" width="200" height="200" />
 
-The user will take advantage of the various facilities of the mesh-generation, mesh-modification, and mesh-export functionality of the package. The code  and brief discussions  in markdown are  in the two corresponding subfolders:
+The user takes advantage of the various facilities of the mesh-generation, mesh-modification, and mesh-export functionality of the FinEtools package. The code  and brief discussions  in markdown are  in the two corresponding subfolders:
 
 - [Method 1](Method_1/method1.md): The user does not change the definition  of the  public interface  to the functionality of the FinEtools package.
 
