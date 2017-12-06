@@ -1,3 +1,3 @@
 # FinEtools Use Case
 
-(sphere.png "Mesh of the sphere")
+![Mesh of the sphere](sphere.png "Mesh of the sphere")
