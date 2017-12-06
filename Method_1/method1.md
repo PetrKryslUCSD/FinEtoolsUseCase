@@ -2,6 +2,19 @@
 
 The user creates the file `Q4spheren.jl` with the  function `Q4spheren`. The user then establishes the public interface in the module `add2FinEtools` in the file `add2FinEtools.jl`.
 
+The  example file `examplemesh.jl` draws in the FinEtools package with this entire  public interface (as defined by the developer), plus the public interface of the added function `Q4spheren`:
+
+```
+using FinEtools
+using add2FinEtools
+
+radius, nperradius = 5.0, 8
+fens, fes = Q4spheren(radius, nperradius)
+File =  "Sphere_mesh.vtk"
+vtkexportmesh(File, fes.conn, fens.xyz, FinEtools.MeshExportModule.Q4);
+@async run(`"paraview.exe" $File`)
+```
+
 The user runs the example as
 
 ```
